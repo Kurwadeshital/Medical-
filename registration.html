@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1>Registration</h1>
+        <fieldset>
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Name" id="name" name="user_name">
+        
+          <label for="dob">Date Of Birth:</label>
+          <input type="date" id="dob" placeholder="Date Of Birth" name="user_dob">
+
+          <label for="gender">Gender:</label>
+          <select name="gender" id="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Transgender">Transgender</option>
+          </select>
+          
+          <label for="weight">Weight:</label>
+          <input type="number" placeholder="Weight" id="weight" name="user_weight">
+          
+          <label for="age">Age:</label>
+          <input type="number" placeholder="Age" id="age" name="user_age">
+          
+          <label for="disease">Patient Type (disease):</label>
+          <input type="text" placeholder="Patient Type (disease)" id="disease" name="user_disease">
+          
+          <label for="admission">Admission date:</label>
+          <input type="date" placeholder="Admission date" id="admission" name="user_admission">
+          
+          <label for="bloodgroup">Blood Group:</label>
+          <select name="bloodgroup" id="bloodgroup">
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+              <option value="A">A</option>
+              <option value="A">A-</option>
+              <option value="B">B</option>
+              <option value="B">B-</option>
+              <option value="O">O</option>
+              <option value="O-">O-</option>
+          </select>
+
+          <label for="bedNo">Bed No.:</label>
+          <input type="text" id="bedNo" placeholder="Bed No." name="user_bedNo">
+          
+          <label for="profilePic">Profile Picture:</label>
+          <input type="file" name="profilePic" id="profilePic">
+          
+          <label for="medicalReports">Medical Reports Upload:</label>
+          <input type="file" placeholder="Medical Reports Upload" name="medicalReports" id="medicalReports">
+          
+          <label for="prescriptionUpload">Current Prescription Upload:</label>
+          <input type="file" name="prescriptionUpload" placeholder="Current Prescription Upload" id="prescriptionUpload">
+
+          <label for="doctorAssigned">Doctor Assigned:</label>
+          <input type="text" name="doctorAssigned" placeholder="Doctor Assigned" id="doctorAssigned">
+    
+        </fieldset>
+        <button type="submit">Register</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
